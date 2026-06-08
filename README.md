@@ -5,6 +5,8 @@
 
 Audio Merger is an Ableton Live Extension that can merge all audio within an Arrangement Audio Selection into a single file on a new Track.
 
+![](https://github.com/NoahPena/Ableton-Audio-Merger/blob/main/low-audio-merger.gif)
+
 </div>
 
 ## What It Does
@@ -23,7 +25,7 @@ There are a couple limitations due to limitations with the Ableton Extension SDK
 
 Note: Requires the latest Ableton Live 12 Suite Beta
 
-1. Download the latest Audio-Merger.ablx from Releases
+1. Download the latest Audio-Merger.ablx from [Releases](https://github.com/NoahPena/Ableton-Audio-Merger/releases)
 2. In Ableton, Navigate to Preferences -> Extensions
 3. Drag and Drop the .ablx file
 4. Restart Ableton Live
