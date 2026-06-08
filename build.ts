@@ -9,7 +9,6 @@ await esbuild.build({
   entryPoints: ["src/extension.ts"],
   outfile: manifest.entry,
   bundle: true,
-  external: ["ffmpeg-static"],
   format: "cjs",
   platform: "node",
   sourcesContent: false,
