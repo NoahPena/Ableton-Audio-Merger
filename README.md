@@ -1,6 +1,15 @@
-# track-squasher
+# Audio Merger
 
-An Ableton Live extension built with `@ableton-extensions/sdk`.
+Audio Merger is an Ableton Live Extension that can merge all audio within an Arrangement Audio Selection into a single file on a new Track.
+
+## Limitations
+
+There are a couple limitations due to limitations with the Ableton Extension SDK. Namely:
+
+* Audio Merger only merges Pre-FX Audio since there is no way to render Post-FX Audio
+* MIDI Clips are not supported because there is no way to bounce a MIDI Track to an Audio Clip
+    * Any MIDI Clips selected are just skipped
+
 
 ## Get Started
 
